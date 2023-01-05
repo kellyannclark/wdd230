@@ -1,0 +1,7 @@
+
+
+/*css flex must be used on navigation*/
+
+nav {
+    flex-direction: column;
+}

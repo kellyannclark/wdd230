@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelly</title>
+    <meta name="author" content="Kelly Clark">
+    <meta 
+    name="description"
+    content="WDD230 Kelly Clark Course Assignment Portal">
+    <title>WDD 230 - Portal - Kelly Clark </title>
 </head>
 <body>
-    
+    <nav>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+        <a href="https://www.linkedin.com/in/kelly-clark-b47202230/">LinkedIn</a>
+        <a href="https:www.byui.edu">BYU-Idaho</a>
+    </nav>
+    <header>
+        <h1>Kelly Clark</h1>
+        <img src="images/kellyprofilepic.jpg" alt="profile image">
+      </header>
+      <main>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul style="list-style: none;">
+              <li><a href="#">Activity 1</a></li>
+              <li><a href="#">Activity 2</a></li>
+              <li><a href="#">Activity 3</a></li>
+            </ul>
+        </section>
+        <section class="card">
+           <h3>Project</h3>
+           <a href="/project-folder">Go to project folder</a>
+        </section>
+        <section>
+            <h3>Information</h3>
+            <p>Current weather: <span id="weather">placeholder</span></p>
+            <p>Number of page visits: <span id="visits">placeholder</span></p>
+        </section>
+
+      </main>
+      
+      <footer>
+        <p>
+            &copy; <script>document.write(new Date().getFullYear())</script> Kelly Clark
+            United States of America 
+            <br>
+            <img src="images/flag.png" alt="US Flag">
+          </p>
+        
+        <p class="highlight" id="lastModified">Last modified: <script>document.write(document.lastModified)</script></p>
+        
+      </footer>
+      <script src="/scripts/getDates.js"></script>
 </body>
 </html>
