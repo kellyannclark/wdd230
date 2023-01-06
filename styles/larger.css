@@ -4,5 +4,17 @@
         flex-direction: row-reverse;
         justify-content: right;
         gap: 3rem;}
-  
+
+    main {
+       display: grid;
+       grid-template-columns: 500px 500px;
+       grid-template-rows: 200px 200px;
+       justify-content: center;
+    }
+
+    .card1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
 }
