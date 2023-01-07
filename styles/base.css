@@ -73,7 +73,7 @@ main {
     grid-column: 1 /2;
     grid-row: 1 /2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     border: 1px solid black;
 
 }
@@ -81,14 +81,14 @@ main {
     background-color:lightgray;
     border-radius: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     border: 1px solid black
 }
 .card3 {
     background-color:lightgray;
     border-radius: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     border: 1px solid black
 }
 
