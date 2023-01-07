@@ -95,17 +95,24 @@ main {
 .card1 h3 {
     background-color: white;
     border-radius: 15px;
+    max-width: 300px;
+    margin-left: 100px;
+    
     
 }
 
 .card2 h3 {
     background-color: white;
     border-radius: 15px;
+    max-width: 300px;
+    margin-left: 100px;
 }
 
 .card3 h3 {
     background-color: white;
     border-radius: 15px;
+    max-width: 300px;
+    margin-left: 100px;
 }
 
 footer {
