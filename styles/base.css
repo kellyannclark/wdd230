@@ -17,6 +17,7 @@ nav a {
     color: #000;
 
 }
+
 .menu-item {
     display: none;
 
@@ -29,6 +30,13 @@ a.open {
     content: "❌";
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	left: 2rem;
+	font-size: 2rem;
+	cursor: pointer;
+}
 
 header {
     display: flex;
@@ -47,6 +55,7 @@ header h1{
   font-family: "Arizonia";
   margin-right: 80px;
   text-shadow: 2px 2px #000000;
+  font-size: 2em;
 
 }
 
