@@ -9,13 +9,11 @@ nav {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:#eee;
-    
 }
 
 nav a {
     font-size: 1.5em;
     color: #000;
-
 }
 
 .menu-item {
@@ -124,7 +122,7 @@ a {
     
 }
 
-.card1 h3 {
+main h3 {
     background-color:rgb(209, 211, 206);
     border-radius: 15px;
     max-width: 300px;
@@ -133,21 +131,7 @@ a {
     
 }
 
-.card2 h3 {
-    background-color:rgb(209, 211, 206);
-    border-radius: 15px;
-    max-width: 300px;
-    margin-left: 40px;
-    box-shadow: 0px 0px 2px 0px #000000;
-}
 
-.card3 h3 {
-    background-color:rgb(209, 211, 206);
-    border-radius: 15px;
-    max-width: 300px;
-    margin-left: 40px;
-    box-shadow: 0px 0px 2px 0px #000000;
-}
 .card3 p {
     color:#000
 }
