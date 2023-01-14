@@ -7,14 +7,17 @@
 
     main {
        display: grid;
-       grid-template-columns: 500px 500px;
-       grid-template-rows: 200px 200px;
-       justify-content: center;
+       grid-template-columns: 1fr 1fr;
+       max-width: 800px;
+       margin: auto;
     }
 
-    .card1 {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
+    main h1 {
+        grid-column: 1 / span 2;
+    }
+
+    main .card1 {
+        grid-row: 2 / span 2;
     }
     
 }
