@@ -5,15 +5,15 @@ const mainh1 = document.querySelector("main h1")
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☑️")) {
 		main.style.background = "#000";
-		main.style.color = "#fff";
+		main.style.color = "#000";
 		mainh1.style.color = "#eee";
-		modeButton.textContent = "❎";
+		modeButton.textContent = "X";
 	} 
-    
     
     else {
 		main.style.background = "#eee";
 		main.style.color = "#000";
+        mainh1.style.color = "#000";
 		modeButton.textContent = "☑️";
 	}
 });
