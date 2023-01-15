@@ -75,7 +75,7 @@ header h2 {
 
 }
 
-header a {
+header div {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     z-index: 1;
@@ -144,7 +144,7 @@ main h3 {
     font-size: 40px;
 }
 
-main a {
+main div {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     margin-left: 100px;
