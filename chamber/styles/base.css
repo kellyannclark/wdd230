@@ -47,13 +47,13 @@ a.open {
 
  header h2 {
     font-family: "Fredericka the Great";
-    font-size: 5em;
+    font-size: 10em;
     color: white;
     position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
-    padding-left: 30px;
+    padding-left: 100px;
  }
 
  header h1 {
