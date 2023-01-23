@@ -1,0 +1,36 @@
+
+@media (min-width: 600px) {
+    /* contents of the larger.css file go here */
+
+nav {
+    flex-direction: row-reverse;
+    justify-content: right;
+    gap: 3rem;
+    }
+
+    main {
+        max-width: 800px;
+        margin: auto;
+        
+    }
+
+    .img1 {
+        max-width: 400px;
+
+    }
+    .img2 {
+        max-width: 400px;
+
+    }
+
+    .img3 {
+        max-width: 400px;
+
+    }
+
+    .grid-container img {
+        width: 400px;
+        height: 250px;
+    }
+
+}
