@@ -60,12 +60,14 @@ a.open {
     font-family: Lora;
  }
 
- header div button {
-    font-family: Dosis;
-    font-size: 2em;
-    padding: 10px;
-    margin-bottom: 10px;
- }
+ .join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkcyan;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
 
 .weather  {
     max-width: 300px;
@@ -202,5 +204,15 @@ div p {
     font-size: 2em;
     padding-left: 50px;
     padding-right: 25px;
+}
+
+/* Join Page */
+
+.form {
+    display: block;
+    text-align: left; 
+    font-size: 16px;
+    margin-left: auto;
+    margin-top: 10px;
 }
 
