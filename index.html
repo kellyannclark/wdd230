@@ -81,9 +81,35 @@
         </section>
         <section class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56459.847268822225!2d-111.66283895755814!3d40.12607058996142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874db9d7dc27d89d%3A0x8b6bd315d9f959d0!2sSpanish%20Fork%2C%20UT%2084660!5e0!3m2!1sen!2sus!4v1674156829112!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      
         </section>
-
+        <section class="contactform">
+          <h1>Contact Form</h1>
+          <form method="get" action="thanks.html">
+              <fieldset>
+                  <legend>Applicant Information</legend>
+                  <label class="top"> Full Name* <input type="text" name="fullname" required></label>
+                  <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                  <label class="top" for="r">Page Rating [ <span id="rating"></span> ]:</label>
+                  <div class="rangecontainer">
+		              <input type="range" min="1" max="10" id="r" name="r" list="ten" required="required">
+                  <div class="ratinglabels">
+                    <span class="ratevalue">1</span>
+                    <span class="ratevalue">2</span>
+                    <span class="ratevalue">3</span>
+                    <span class="ratevalue">4</span>
+                    <span class="ratevalue">5</span>
+                    <span class="ratevalue">6</span>
+                    <span class="ratevalue">7</span>
+                    <span class="ratevalue">8</span>
+                    <span class="ratevalue">9</span>
+                    <span class="ratevalue">10</span>
+                 </div>
+                </div>              
+                  <label class="top"> UserName<input type="password" name="UserName" id="username" pattern="(?=.*\W)(?=^.{5,12}$).*"></label>
+                  <label class="top"> UserName<input type="password" name="UserName" id="username" pattern="(?=.*\W)(?=^.{5,12}$).*"></label>
+                  <input type="submit" value="Sign Up" class="submitBtn">
+              </fieldset>
+        </section>
       </main>
       
       <footer>
@@ -101,5 +127,6 @@
       <script src="scripts/menubutton.js"></script>
       <script src="scripts/lightdarkmode.js"></script>
       <script src="scripts/localStorage.js"></script>
+      <script src="scripts/form.js"></script>
 </body>
 </html>
