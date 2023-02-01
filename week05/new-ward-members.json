@@ -1,0 +1,23 @@
+{
+    "familyName" : "Johnson",
+    "numFamMembers" : 3,
+    "dateMoveIn" : 2022,
+    "vistedByBishopric" : true,
+    "members" : [
+      {
+        "name" : "Michael",
+        "birthDate" : 1989,
+        "gender" : "Male"
+      },
+      {
+        "name" : "Sarah",
+        "birthDate" : 1993,
+        "gender" : "Female"
+      },
+      {
+        "name" : "Rebecca",
+        "birthDate" : 2019,
+        "gender" : "Female"
+      }
+    ]
+  }
