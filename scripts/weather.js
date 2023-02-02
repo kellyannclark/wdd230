@@ -7,8 +7,8 @@ const captionDesc = document.querySelector('figcaption');
 const url = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Use the Current Weather API and start a query string
-const apiKey = '843c1c38f9dbad88c862b6e4af7e9a92';
-const city = 'Trier';
+const apiKey = '15a1ab955380b7a83ec1c9828e8bc826';
+const city = 'Spanish Fork';
 const units = 'imperial';
 const queryString = `?q=${city}&appid=${apiKey}&units=${units}`;
 

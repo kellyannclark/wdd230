@@ -1,0 +1,9 @@
+{
+  "links": [
+    {"week01": ["week01/holygrail.html", "week01/media-query.html"]},
+    {"week02": ["https://codepen.io/keljt2003/pen/GRBmbZL"]},
+    {"week03": ["images/landscape.webp", "week03/lazyload.html", "https://codepen.io/keljt2003/pen/ExpoweM","week03/bom.html" ]},
+    {"week04": ["https://codepen.io/keljt2003/pen/gOjzqPd", "images/csscombinator.JPG", "week04/tablebuild.html"]},
+    {"week05": ["https://codepen.io/keljt2003/pen/ZEjqXrZ", "week05/new-ward-members.json", "week05/prophets.html","week05/weather.html"]}
+  ]
+  }

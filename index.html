@@ -29,49 +29,28 @@
         </div>
     </nav>
     <header>
-        <h1>Kelly Clark</h1>
-        <img src="images/profilepic.webp" loading="lazy" alt="profile image">
-      </header>
+      <h1>Kelly Clark</h1>
+      <img src="images/profilepic.webp" loading="lazy" alt="profile image">
+    </header>
       <main><div class="hero">
         <picture>
           <source media="(max-width: 400px)" srcset="images/provotemple1.webp">
           <img src="images/provotemple.webp" loading="lazy" alt="provo_city_center_temple_exterior">
         </picture>
+      </div>
         <div class="herolabel">
           <p>Provo City Center Temple</p>
         </div>
 
-      </div>
+      
 
         <h1>WDD 230: Course Activity Portal</h1>
-        <section class="card1">
-            <h3>Learning Activities</h3>
-            <ul style="list-style: none;">
-              <li>
-                <a href="week01/holygrailcopy.html">Week 1: The Holy Grail</a>
-              </li>
-              <li>
-                <a href="https://codepen.io/keljt2003/pen/GRBmbZL">Week 2: Hamburger Button</a>
-              </li>
-              <li>
-                <a href="images/landscape.webp">Week 3: Webp</a>
-                <a href="week03/lazyload.html">| LazyLoad</a>
-                <a href="https://codepen.io/keljt2003/pen/ExpoweM"> | Srcset</a>
-                <a href="week03/bom.html"> | localStorage</a>
-              </li>
-              <li>
-                <a href="https://codepen.io/keljt2003/pen/gOjzqPd">Week 4: Pseudo-class</a>
-                <a href="images/csscombinator.JPG">CSS Combinator</a>
-                <a href="week04/tablebuild.html">Table Build</a>
-              </li>
-              <li>
-                <a href="https://codepen.io/keljt2003/pen/ZEjqXrZ">Week 5: Pseudo-Elements</a>
-                <a href="week05/new-ward-members.json">json</a>
-                <a href="week05/prophets.html">Fetch API</a>
-                <a href="week05/weather.html">Weather</a>
-              </li>
-              <li><a href="#">Week 6</a></li>
-            </ul>
+            <section class="card1">
+              <h3>Learning Activities</h3>
+              <ul id="linkList" style="list-style: none;">
+                
+              </ul>
+            </section>
         </section>
         <section class="card2">
            <h3>Project</h3>
@@ -81,7 +60,11 @@
         </section>
         <section class="card3">
             <h3>Information</h3>
-            <p>Current weather: <span id="weather">placeholder</span></p>
+            <p>The current temp. in Spanish Fork Utah is <span id="current-temp"></span></p>
+            <figure>
+              <img id="weather-icon" src="" alt="icon">
+              <figcaption></figcaption>
+            </figure>
             <p><span class="label">Number of page visits: </span><span class="visits">placeholder</span></p>
         </section>
         <section class="map">
@@ -133,5 +116,7 @@
       <script src="scripts/lightdarkmode.js"></script>
       <script src="scripts/localStorage.js"></script>
       <script src="scripts/form.js"></script>
+      <script src="scripts/weather.js"></script>
+      <script src="scripts/links.js"></script>
 </body>
 </html>

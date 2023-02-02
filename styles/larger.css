@@ -10,7 +10,7 @@
        margin: auto;
        display: grid;
        grid-template-columns: 1fr 1fr;
-       grid-template-rows: 300px 75px 150px 150px 600px
+       grid-template-rows: 300px 75px 150px 250px 600px
        
     }
 
