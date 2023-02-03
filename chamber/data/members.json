@@ -1,68 +1,68 @@
 {
     "companies": [
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "McCall Brewing Company",
+        "address": "803 N 3rd St. A",
+        "phonenumber": "208-634-3309",
+        "websiteurl": "https://mccallbrew.com/",
+        "logourl": "https://mccallbrew.com/app/uploads/2018/03/logo-mccallbrew.svg",
+        "membershiplevel": "Gold"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "Broken Horn Brewing Company",
+        "address": "201 South Mission St.",
+        "phonenumber": "208-315-5472",
+        "websiteurl": "http://brokenhornbrewing.com/index.html",
+        "logourl": "http://brokenhornbrewing.com/uploads/7/7/1/9/77197931/1459552487.png",
+        "membershiplevel": "Gold"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "Mountain Monkey Business",
+        "address": "304 E. Lake St.",
+        "phonenumber": "208-634-8268",
+        "websiteurl": "https://www.monkeylove.shop/",
+        "logourl": "https://images.squarespace-cdn.com/content/v1/5f0c3501b648c20c62a1d256/0a5487a1-fdcc-4310-af6c-adbec3ffd61f/Monkey+Love+Final+300DPI+transparent.png?format=1500w",
+        "membershiplevel": "Platinum"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "Printship McCall",
+        "address": "200 Jacob St.",
+        "phonenumber": "208-634-5850",
+        "websiteurl": "https://www.printshopmccall.com/",
+        "logourl": "https://static.wixstatic.com/media/119509_d395c8c5927f4ec18462f225d0a623bf.png/v1/fill/w_1200,h_400,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/119509_d395c8c5927f4ec18462f225d0a623bf.png",
+        "membershiplevel": "Gold"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "Lamm & Company CPA",
+        "address": "311 Deinhard Ln.",
+        "phonenumber": "208-634-2351",
+        "websiteurl": "https://www.lammcocpa.com/",
+        "logourl": "https://lirp.cdn-website.com/8211ae70/dms3rep/multi/opt/Copy+of+Untitled+%286%29-232w.png",
+        "membershiplevel": "Silver"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "Kistner & Co.",
+        "address": "1630 Davis Ave. #52",
+        "phonenumber": "208-634-7167",
+        "websiteurl": "https://www.taxbuzz.com/find-the-best-tax-preparer/idaho/mccall/david-kistner",
+        "logourl": "https://www.taxbuzz.com/img/logo.png",
+        "membershiplevel": "Gold"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "McCall Jewelry Company",
+        "address": "207 E. Lake St.",
+        "phonenumber": "208-634-4367",
+        "websiteurl": "https://mccalljewelry.com/",
+        "logourl": "https://cdn.shopify.com/s/files/1/0270/4048/1344/files/MJC_WebLogoFull-NoBack_800x@2x.png?v=1613775321",
+        "membershiplevel": "Silver"
       },
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "phonenumber": "23 December 1805",
-        "websiteurl": "27 June 1844",
-        "logourl": 14,
-        "membershiplevel": 1
+        "name": "Norco, McCall",
+        "address": "163, 6 Thula St. Bldg. 0 Suite 6",
+        "phonenumber": "208-634-2523",
+        "websiteurl": "https://www.norco-inc.com/",
+        "logourl": "https://www.norco-inc.com/ASSETS/WEB_THEMES//NORCO/images/logo.png",
+        "membershiplevel": "Gold"
       }
     ]
 }
