@@ -221,3 +221,58 @@ div p {
 
   
 
+ #members #grid-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #members #grid-view .member-card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  #grid-view img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #grid-view h2 {
+    margin-bottom: 20px;
+  }
+  
+  #grid-view a {
+    color: blue;
+  }
+  
+  /* List View */
+  #members.list-view {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #members.list-view .member-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  #members.list-view img {
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+  }
+  
+  #members.list-view h2 {
+    clear: both;
+    margin-bottom: 20px;
+  }
+  
+  #members.list-view a {
+    color: blue;
+  }
+  
