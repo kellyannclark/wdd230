@@ -59,11 +59,21 @@ a.open {
  header h1 {
     font-family: Lora;
  }
+ #banner {
+    background-color:skyblue;
+    font-family: "Dosis";
+    margin-top: 50px;
+    font-size: 25px;
+ }
+
+ .banner_text {
+    padding:25px
+ }
 
  .join-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color:darkcyan;
+    background-color:black;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -100,45 +110,51 @@ main p {
 main .img1 {
     width: 100%;
     height: 300px;
+    max-width: 450px;
     position: relative;
 
 }
 
 main .eat {
    text-align: center;
-   font-family: "Reenie Beanie";
-   font-size: 4em;
+   font-family: "Lora";
+   font-size: 3em;
+   background-color:whitesmoke;
 }
 
 main .img2 {
     width: 100%;
     height: 300px;
+    max-width: 450px;
     position: relative;
 
 }
 
 main .shop {
     text-align: center;
-    font-family: "Reenie Beanie";
-    font-size: 4em;
+    font-family: "Lora";
+    font-size: 3em;
+    background-color:whitesmoke;
 }
 
 main .img3 {
     width: 100%;
     height: 300px;
+    max-width: 450px;
     position: relative;
 
 }
 
 main .stay {
     text-align: center;
-    font-family: "Reenie Beanie";
-    font-size: 4em;
+    font-family: "Lora";
+    font-size: 3em;
+    background-color:whitesmoke;
 }
 
 main h3 {
     font-family: Lora;
-    background-color: aliceblue;
+    background-color:whitesmoke;
     padding: 30px;
 }
 
@@ -147,22 +163,40 @@ main div button {
     font-size: 1.5em;
     padding: 10px;
     margin-bottom: 30px;
+    background-color: white;
 }
 
 main .background {
-    background-color: aliceblue;
+    background-color:whitesmoke;
     padding: 20px;
     margin-bottom: 30px;
 }
 
-main .weatherh2 {
-    text-align: right;
-    font-family: "Lora";
-    padding: 15px;
+main .weather {
+    background-color: cornsilk;
+    padding-bottom: 25px;
+    font-size: 2em;
+}
+#spotLighted img{
+    width: 100px;
+}
+
+#spotLighted {
+    background-color:white;
+    
+}
+#spotLighted p {
+    text-align: center;
+    font-family: "Reenie Beanie";
+    font-size: 4em;
+    background-color: white;
 }
 
 footer {
     font-family: "Lora";
+    background-color: whitesmoke;
+    padding: 25px;
+    
 
 }
 
@@ -220,59 +254,64 @@ div p {
 
 
   
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(1fr 200px, 1fr));
+	align-items: center;
+    font-size: large;
 
- #members #grid-view {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  #members #grid-view .member-card {
-    width: 25%;
+}
+.grid div img{
+    width: 100px;
+    height: 50px;
+}
+
+.grid div {
+    text-align: center;
+    border: 1px solid black;
+	padding: 0.5rem;
+	background-color: whitesmoke;
+    margin: 0 auto;
+}
+.grid p {
+    padding: 0%;
+    text-align: center;
+}
+
+.grid li {
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    padding: 0%;
+}
+
+.grid ul {
+    padding: 0%;
+}
+
+.list {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    border: 1px solid #ccc;
-    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
   }
   
-  #grid-view img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+.list li:nth-child(even) {
+	background-color: #bed;
+    padding: 1rem;
+}
   
-  #grid-view h2 {
-    margin-bottom: 20px;
-  }
-  
-  #grid-view a {
-    color: blue;
-  }
-  
-  /* List View */
-  #members.list-view {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #members.list-view .member-card {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
-  
-  #members.list-view img {
-    width: 200px;
-    margin-right: 20px;
-    float: left;
-  }
-  
-  #members.list-view h2 {
-    clear: both;
-    margin-bottom: 20px;
-  }
-  
-  #members.list-view a {
-    color: blue;
-  }
-  
+.list  > * {
+    margin: 0 1rem;
+}
+.list img {
+    display: none;
+}
+.list p {
+    padding: 0%;
+}
+
+.list ul {
+    padding: 0%;
+}

@@ -1,0 +1,20 @@
+{
+    "companies": [
+      {
+        "name": "McCall Brewing Company",
+        "address": "803 N 3rd St. A",
+        "phonenumber": "208-634-3309",
+        "websiteurl": "https://mccallbrew.com/",
+        "logourl": "https://mccallbrew.com/app/uploads/2018/03/logo-mccallbrew.svg",
+        "membershiplevel": "Gold"
+      },
+      {
+        "name": "Broken Horn Brewing Company",
+        "address": "201 South Mission St.",
+        "phonenumber": "208-315-5472",
+        "websiteurl": "http://brokenhornbrewing.com/index.html",
+        "logourl": "http://brokenhornbrewing.com/uploads/7/7/1/9/77197931/1459552487.png",
+        "membershiplevel": "Gold"
+      }]
+
+}      

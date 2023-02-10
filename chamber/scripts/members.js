@@ -12,7 +12,7 @@ fetch("data/members.json")
     for (let company of companies) {
       let li = document.createElement("li");
       li.innerHTML = `
-        <h2>${company.name}</h2>
+        <h4>${company.name}</h4>
         <p>Address: ${company.address}</p>
         <p>Phone Number: ${company.phonenumber}</p>
         <p>Website URL: <a href="${company.websiteurl}">${company.websiteurl}</a></p>
@@ -24,14 +24,20 @@ fetch("data/members.json")
   })
   .catch(error => console.error(error));
 
-const membersContainer = document.querySelector("#members");
 
-document.querySelector("#grid-view").addEventListener("click", () => {
-  membersContainer.classList.remove("list-view");
-  membersContainer.classList.add("grid-view");
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
 });
 
-document.querySelector("#list-view").addEventListener("click", () => {
-  membersContainer.classList.remove("grid-view");
-  membersContainer.classList.add("list-view");
-});
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}

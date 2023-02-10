@@ -30,6 +30,11 @@
             <a href="join.html" class="join-button">Join</a>
         </div>
         <h2>McCall</h2>
+        <div id="banner">
+            <div class="banner_text">
+                <strong>Reminder: </strong> Please join us every Wednesday at 12:00pm for our Chamber of Commerce "meet and greet" at Broken Horn Brewing Company.
+            </div>
+        </div>
     </header>
     <main class="gridcontainer">
         <h2>Adventure Awaits!</h2>
@@ -43,12 +48,23 @@
         <p class="shop">Shop</p>
         <img class="img3" src="images/lodgingimages.jpg" alt="lodging">
         <p class="stay">Stay</p>
-        <h3>Upcoming Events </h3>
-        <div class="background">
-            <button>Click Here</button>
+        <div id="spotLighted">
+            <p>Business Spotlights</p>
+            <ul>     
+            </ul>
         </div>
-        <img class="weather" src="images/weather.jpg" alt="weather">
-        <div class="weatherh2">Current Weather</div>
+        <div class="background">
+            <h3>Upcoming Events </h3>
+            <button>Find Your Fun</button>
+        </div>
+        <div class="weather">
+            <p>The current temp. in McCall Idaho is <span id="current-temp"></span></p>
+            <figure>
+              <img id="weather-icon" src="https://api.openweathermap.org/data/2.5/weather" alt="icon">
+              <figcaption></figcaption>
+            </figure>
+            <div id="foreCast"></div>
+        </div>
 
     </main>
     <footer>
@@ -57,5 +73,7 @@
     </footer>
     <script src="scripts/menubutton.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>
