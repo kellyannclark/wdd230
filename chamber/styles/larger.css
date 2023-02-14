@@ -3,7 +3,6 @@
     /* contents of the larger.css file go here */
 
 nav {
-    flex-direction: row-reverse;
     justify-content: right;
     gap: 3rem;
     }
@@ -32,5 +31,17 @@ nav {
         width: 400px;
         height: 250px;
     }
-
+    #menu-button {
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    nav .menu-item {
+        display: inline;
+    
+    }
 }

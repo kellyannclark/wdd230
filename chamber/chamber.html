@@ -10,6 +10,7 @@
     <meta property="og:type" content="website" >
     <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvisitmccall.org%2Fmccall-chamber%2F&psig=AOvVaw2FFYmx2hc2dAE639yQbZre&ust=1673843878567000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMjkjMDgyPwCFQAAAAAdAAAAABAE" >
     <meta property="og:url" content="https://kellyannclark.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -24,7 +25,7 @@
         <a class="menu-item" href="join.html">Join</a>
     </nav>
     <header class="container">
-        <img class="hero" src="images/heroimage.jpg" alt="womanonsnow">
+        <img class="hero" src="images/heroimage.webp" loading="lazy" alt="womanonsnow">
         <h1>Welcome to the McCall Chamber of Commerce</h1>
         <div>
             <a href="join.html" class="join-button">Join</a>
@@ -42,11 +43,11 @@
             Nestled in the heart of the Payette National Forest, McCall is surrounded by towering peaks, sparkling alpine lakes, and dense forests. This picturesque setting provides the perfect backdrop for a wide range of outdoor activities, including hiking, fishing, camping, and skiing. In the winter months, the nearby Brundage Mountain Resort is a popular destination for skiers and snowboarders, while in the summer, visitors can take advantage of the many hiking and biking trails that wind through the surrounding wilderness.
             One of the most popular attractions in McCall is Payette Lake, a large, crystal-clear lake that offers a variety of water sports and activities. Visitors can rent boats or jet skis, go fishing, or take a leisurely cruise on a tour boat. The lake is also a popular spot for swimming, sunbathing, and picnicking.
         </p>
-        <img class="img1" src="images/diningimage.jpg" alt="dining">
+        <img class="img1" src="images/diningimage.webp" loading="lazy" alt="dining">
         <p class="eat">Eat</p>
-        <img class="img2" src="images/shoppingimage.jpg" alt="shopping">
+        <img class="img2" src="images/shoppingimage.webp" loading="lazy" alt="shopping">
         <p class="shop">Shop</p>
-        <img class="img3" src="images/lodgingimages.jpg" alt="lodging">
+        <img class="img3" src="images/lodgingimages.webp" loading="lazy" alt="lodging">
         <p class="stay">Stay</p>
         <div id="spotLighted">
             <h2>Business Spotlights</h2>
@@ -54,8 +55,8 @@
             </ul>
         </div>
         <div class="background">
-            <h4>Upcoming Events </h4>
-            <button>Find Your Fun</button>
+            <h4>Current Events </h4>
+            <a href="currentevents.html" class="events-button">Find Your Fun</a>
         </div>
         <div class="weather">
             <p>The current temp. in McCall Idaho is <span id="current-temp"></span></p>
@@ -68,6 +69,10 @@
 
     </main>
     <footer>
+        <p>McCall Chamber of Commerce</p>
+        <p>Phone: 208-555-1212</p>
+        <p>Address: 150 Anywhere St. McCall, Idaho</p>
+        <p>Email: chamberofcommerce@gmail.com</p>
         <p>Kelly Clark | WDD230 Commerce Website Project</p>
         <p id="year"></p>
     </footer>

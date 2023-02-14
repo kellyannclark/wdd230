@@ -10,6 +10,7 @@
     <meta property="og:type" content="website" >
     <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvisitmccall.org%2Fmccall-chamber%2F&psig=AOvVaw2FFYmx2hc2dAE639yQbZre&ust=1673843878567000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMjkjMDgyPwCFQAAAAAdAAAAABAE" >
     <meta property="og:url" content="https://kellyannclark.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -18,13 +19,13 @@
 <body>
     <nav>
         <a id="menu-button">&#9776;</a>
-        <a class="menu-item" href="wdd230/chamber.html">Home</a>
+        <a class="menu-item" href="chamber.html">Home</a>
         <a class="menu-item" href="discover.html">Discover</a>
         <a class="menu-item" href="directory.html">Directory</a>
         <a class="menu-item" href="join.html">Join</a>
     </nav>
     <header class="container">
-        <img class="hero" src="images/heroimage.jpg" alt="womanonsnow">
+        <img class="hero" src="images/heroimage.webp" alt="womanonsnow">
         <h1>Welcome to the McCall Chamber of Commerce</h1>
         <div>
             <a href="join.html" class="join-button">Join</a>
@@ -42,15 +43,19 @@
             <p>Govt' Workers: 104</p>
            </div>
            <picture class="image1">
-            <img src="images/mccall1.webp" alt="mccallcity">
+            <img src="images/mccall1.webp" loading="lazy" alt="mccallcity">
             </picture>
             <p>Shore Lodge</p>
            <picture class="image2">
-           <img src="images/mccall2.webp" alt="mcallcity">
+           <img src="images/mccall2.webp" loading="lazy" alt="mcallcity">
            </picture>
            <p>Main Street</p>
        </main>
     <footer>
+        <p>McCall Chamber of Commerce</p>
+        <p>Phone: 208-555-1212</p>
+        <p>Address: 150 Anywhere St. McCall, Idaho</p>
+        <p>Email: chamberofcommerce@gmail.com</p>
         <p>Kelly Clark | WDD230 Commerce Website Project</p>
         <p id="year"></p>
     </footer>
