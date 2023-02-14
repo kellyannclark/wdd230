@@ -41,3 +41,4 @@ function displayResults(data) {
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = `${desc}`;
 }
+

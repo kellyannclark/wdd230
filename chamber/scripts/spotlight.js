@@ -12,10 +12,11 @@ fetch("data/spotlight.json")
     for (let company of companies) {
       let li = document.createElement("li");
       li.innerHTML = `
-        <h3>${company.name}</h3>
+      <p><img src="${company.logourl}" alt=${company.name}></p>
+        <h4>${company.name}</h4>
         <p>${company.phonenumber}</p>
         <p>${company.address}</p>
-        <p><img src="${company.logourl}" alt=${company.name}></p>
+        
       `;
       spotLighted.appendChild(li);
     }

@@ -94,7 +94,6 @@ main {
     text-align: center;
     justify-content: center;
     padding-bottom: 10px;
-
 }
 
 main h2 {
@@ -112,7 +111,6 @@ main .img1 {
     height: 300px;
     max-width: 450px;
     position: relative;
-
 }
 
 main .eat {
@@ -127,7 +125,6 @@ main .img2 {
     height: 300px;
     max-width: 450px;
     position: relative;
-
 }
 
 main .shop {
@@ -142,7 +139,6 @@ main .img3 {
     height: 300px;
     max-width: 450px;
     position: relative;
-
 }
 
 main .stay {
@@ -183,21 +179,20 @@ main .weather {
 
 #spotLighted {
     background-color:white;
-    
 }
+
 #spotLighted p {
     text-align: center;
-    font-family: "Reenie Beanie";
-    font-size: 4em;
+    font-family: "Dosis";
+    font-size: 1em;
     background-color: white;
+    margin: auto 0;
 }
 
 footer {
     font-family: "Lora";
     background-color: whitesmoke;
     padding: 25px;
-    
-
 }
 
 /* Discover CSS*/
@@ -206,6 +201,7 @@ footer {
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 300px 50px 300px 50px;
+    font-family: "Dosis";
 }
 
 .sidebar {
@@ -215,9 +211,7 @@ footer {
     padding-left: 30px;
 }
 
-div p {
-    font-family: "Dosis";
-}
+
 
 .image1 {
     grid-column: 2 / 3;
@@ -227,7 +221,6 @@ div p {
     font-size: 2em;
     padding-left: 50px;
     padding-right: 25px;
-    
 }
 
 .image2 {
@@ -239,6 +232,19 @@ div p {
     padding-left: 50px;
     padding-right: 25px;
 }
+
+.grid-container p:nth-of-type(1) {
+    grid-column: 2 /3;
+    grid-row: 4 / 5;
+    font-family: "Lora";
+   
+}
+.grid-container p:nth-of-type(2) {
+    font-family: "Lora";
+   
+}
+
+
 
 /* Join Page */
 
@@ -252,15 +258,14 @@ div p {
 
 /* Directory Page */
 
-
   
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(1fr 200px, 1fr));
+	grid-template-columns: 1fr 200px, 1fr;
 	align-items: center;
     font-size: large;
-
 }
+
 .grid div img{
     width: 100px;
     height: 50px;
@@ -273,6 +278,7 @@ div p {
 	background-color: whitesmoke;
     margin: 0 auto;
 }
+
 .grid p {
     padding: 0%;
     text-align: center;
